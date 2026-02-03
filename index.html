@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartLink App | Agriculture & Food Systems</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f7f5;
+      color: #333;
+    }
+    .app {
+      max-width: 390px; /* mobile app look */
+      margin: auto;
+      background: #ffffff;
+      min-height: 100vh;
+      box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    }
+    header {
+      background: #2e7d32;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    h2 {
+      color: #2e7d32;
+      margin-top: 0;
+    }
+    .card {
+      background: #f9f9f9;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+    }
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    button {
+      background: #2e7d32;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-around;
+      background: #e8f5e9;
+      padding: 10px 0;
+      position: sticky;
+      bottom: 0;
+    }
+    .nav span {
+      font-size: 0.9rem;
+      color: #2e7d32;
+    }
+  </style>
+</head>
+<body>
+
+<div class="app">
+
+  <header>
+    <h1>SmartLink</h1>
+    <p>Farmers & Buyers Connected</p>
+  </header>
+
+  <!-- LOGIN / SIGNUP -->
+  <section>
+    <h2>Login / Sign Up</h2>
+    <div class="card">
+      <input type="text" placeholder="Phone number" />
+      <input type="password" placeholder="Password" />
+      <button>Login</button>
+      <p style="text-align:center; font-size:0.9rem;">New user? Sign up in seconds</p>
+    </div>
+  </section>
+
+  <!-- FARMER DASHBOARD -->
+  <section>
+    <h2>Farmer Dashboard</h2>
+    <div class="card">
+      <p><strong>My Produce</strong></p>
+      <p>Tomatoes – 50kg</p>
+      <p>Maize – 100kg</p>
+      <button>Add New Produce</button>
+    </div>
+    <div class="card">
+      <p><strong>Tips</strong></p>
+      <p>Store tomatoes in a cool, shaded place to reduce spoilage.</p>
+    </div>
+  </section>
+
+  <!-- BUYER DASHBOARD -->
+  <section>
+    <h2>Buyer Dashboard</h2>
+    <div class="card">
+      <p><strong>Available Produce</strong></p>
+      <p>Tomatoes – ₦500/kg</p>
+      <p>Maize – ₦300/kg</p>
+      <button>Place Order</button>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section>
+    <h2>How SmartLink Works</h2>
+    <div class="card">
+      <p>1. Farmers upload harvested produce.</p>
+      <p>2. Buyers order directly.</p>
+      <p>3. Fast sales reduce food waste.</p>
+    </div>
+  </section>
+
+  <div class="nav">
+    <span>Home</span>
+    <span>Farmers</span>
+    <span>Buyers</span>
+    <span>Profile</span>
+  </div>
+
+</div>
+
+</body>
+</html>
